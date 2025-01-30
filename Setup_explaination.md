@@ -51,33 +51,33 @@ Step 5: Initialize Terraform in Your VS Code Folder
             3)Initialize Terraform:  terraform init
             ✅ Terraform is now ready to use with Azure! 🎉
 
- Step 3: Initialize Terraform
+ Step 6: Initialize Terraform
  
       Run the following command to initialize Terraform: terraform init
       ✅ This will download the Azure provider.
 
- Step 4: Preview the Changes
+ Step 7: Preview the Changes
  
       Run: terraform plan
       ✅ This will show you what Terraform will create
 
-Step 5: Apply the Configuration (Create VM)
+Step 8: Apply the Configuration (Create VM)
 
       Run: terraform apply -auto-approve
       ✅ Terraform will start provisioning the Azure VM! 🎉
 
-Step 6: Verify the VM in Azure
+Step 9: Verify the VM in Azure
 
     Go to Azure Portal.
     Navigate to Resource Groups → myResourceGroup.
     You should see the VM and other related resources. ✅
 
- Step 7: Connect to the VM
+ Step 10: Connect to the VM
  
       To connect via SSH, run: ssh azureuser@<PUBLIC_IP>
       Find PUBLIC_IP by running: az vm list-ip-addresses --name myVM --output table
 
-Step 8: Clean Up (Destroy the VM)
+Step 11: Clean Up (Destroy the VM)
 
     If you want to delete everything, run:terraform destroy -auto-approve
 
