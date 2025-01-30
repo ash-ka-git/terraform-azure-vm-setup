@@ -1,7 +1,8 @@
 # This is Basic how we can connect terraform with azure provider and  launch multiple VM. 
 # This can help to create multiple VM.
 # for any issue or help please connect with me on mail (ashkorhalkar@gmail.com)
-# stay tuned for more intresting learning about terraform 
+# stay tuned for more intresting learning about terraform .
+
 
 
 provider "azurerm" {
